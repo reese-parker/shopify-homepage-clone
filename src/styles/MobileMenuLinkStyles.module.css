@@ -1,0 +1,26 @@
+.mobileMenuLink {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  min-width: 100%;
+  font-size: 1.2rem;
+  cursor: pointer;
+  font-weight: 700;
+  color: #42474c;
+}
+
+.dropdownMenuEnter {
+  position: relative;
+  transform: translateY(-30%);
+}
+.dropdownMenuEnterActive {
+  transform: translateY(0%);
+  transition: all 100ms;
+}
+.dropdownMenuExit {
+  position: relative;
+}
+.dropdownMenuExitActive {
+  transform: translateY(-30%);
+}

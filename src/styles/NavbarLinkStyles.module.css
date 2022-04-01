@@ -1,0 +1,21 @@
+.navbarLinkArrow {
+    height: 6px;
+    margin-left: 5px;
+    margin-bottom: 2px;
+}
+
+.navbarDesktopLink {
+    width: 85px;
+    cursor: pointer;
+    position: relative;
+}
+
+.navbarDesktopLink {
+    font-weight: 700;
+    color: #42474c;
+}
+
+.navbarLink:hover {
+    color: black
+}
+
