@@ -49,6 +49,7 @@ export default function Navbar() {
         in={isMobileMenuOpen}
         mountOnEnter
         timeout={0}
+        unmountOnExit
         classNames={{
           enterActive: styles.mobileMenuEnter,
           enterDone: styles.mobileMenuEnterActive,
