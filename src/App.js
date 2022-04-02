@@ -1,6 +1,7 @@
 import Navbar from "./Navbar";
 import IntroSection from "./IntroSection";
 import BusinessOnlineSection from "./BusinessOnlineSection";
+import WhereverSection from "./WhereverSection";
 import styles from "./styles/AppStyles.module.css"
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <main className={styles.mainContainer} >
         <IntroSection />
         <BusinessOnlineSection />
+        <WhereverSection />
       </main>
     </div>
   );
