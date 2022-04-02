@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+   
+}
+
+.image {
+    width: 92%;
+    max-height: 74%;
+}
+
+.business {
+font-weight: 700;
+margin-bottom: 0;
+}
+
+.name {
+margin-top: 0;
+font-size: 1.1rem;
+}

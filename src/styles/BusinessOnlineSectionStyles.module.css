@@ -1,0 +1,74 @@
+.container {
+  background-color: rgb(8, 76, 63);
+  padding: 0 6%;
+  max-width: 100%;
+  border: 1px solid transparent;
+  
+}
+
+.title {
+  padding-top: 30px;
+  color: white;
+  font-size: 1.8rem;
+}
+
+.description {
+  color: white;
+  font-size: 1.1rem;
+}
+
+.exploreContainer {
+  width: 220px;
+  display: flex;
+  margin-bottom: 35px;
+}
+
+.exploreText {
+  color: white;
+  font-weight: 700;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.exploreMoreArrow {
+  transition: 500ms all;
+  cursor: pointer;
+}
+.exploreMoreArrow:hover {
+  transform: translateX(5px);
+}
+
+.examplesContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+}
+
+.businessPathsContainer {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  margin-bottom: 60px;
+}
+
+.subtitle {
+  padding-top: 30px;
+  color: white;
+  font-size: 1.5rem;
+}
+
+
+@media (min-width: 750px) {
+  .examplesContainer {
+    grid-template-columns: repeat(4, 1fr);
+  } 
+  .businessPathsContainer{
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+  }
+}
+@media (min-width: 1100px) {
+ 
+  .businessPathsContainer{
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
