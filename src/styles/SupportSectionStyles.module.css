@@ -1,0 +1,61 @@
+.container {
+  margin-top: 70px;
+  background-color: rgb(251, 247, 238);
+  max-width: 100%;
+}
+
+.textContainer {
+  max-width: 100%;
+  padding: 30px 6%;
+}
+
+.title {
+  font-size: 1.7rem;
+}
+
+.subtitle {
+  font-weight: 700;
+}
+
+.description {
+  color: #6b7177;
+}
+
+.exploreLink {
+  color: #008060;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.imageContainer {
+  width: 100%;
+}
+
+.image {
+  width: 100%;
+}
+
+@media (min-width: 750px) {
+  .container {
+    display: flex;
+  }
+
+  .textContainer {
+      display: flex;
+      flex-wrap: wrap;
+      width: 70%;
+  }
+
+  .supportOptionContainer {
+      width: 45%;
+    }
+
+.imageContainer {
+    width: 60%;
+}
+
+  .image {
+      height: 100%;
+      
+  }
+}

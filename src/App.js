@@ -5,6 +5,7 @@ import WhereverSection from "./WhereverSection";
 import EmpoweringSection from "./EmpoweringSection";
 import styles from "./styles/AppStyles.module.css"
 import QuotesSection from "./QuotesSection";
+import SupportSection from "./SupportSection";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <WhereverSection />
         <EmpoweringSection />
         <QuotesSection />
+        <SupportSection />
       </main>
     </div>
   );
