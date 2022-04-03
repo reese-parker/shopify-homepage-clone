@@ -2,6 +2,7 @@ import Navbar from "./Navbar";
 import IntroSection from "./IntroSection";
 import BusinessOnlineSection from "./BusinessOnlineSection";
 import WhereverSection from "./WhereverSection";
+import EmpoweringSection from "./EmpoweringSection";
 import styles from "./styles/AppStyles.module.css"
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <IntroSection />
         <BusinessOnlineSection />
         <WhereverSection />
+        <EmpoweringSection />
       </main>
     </div>
   );
