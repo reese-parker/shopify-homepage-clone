@@ -6,6 +6,7 @@ import EmpoweringSection from "./EmpoweringSection";
 import styles from "./styles/AppStyles.module.css"
 import QuotesSection from "./QuotesSection";
 import SupportSection from "./SupportSection";
+import FreeTrialSection from "./FreeTrialSection";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <EmpoweringSection />
         <QuotesSection />
         <SupportSection />
+        <FreeTrialSection />
       </main>
     </div>
   );

@@ -5,7 +5,7 @@ import styles from "./styles/IntroSectionStyles.module.css";
 
 export default function IntroSection() {
   return (
-    <section className={styles.container}>
+    <section id="IntroSection" className={styles.container}>
       <div className={styles.signUpContainer}>
           <p className={styles.title}>The platform commerce is built on</p>
           <p className={styles.description}>Millions of the world's most successful brands trust Shopify to sell, ship and process payments anywhere.</p>

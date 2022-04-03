@@ -13,7 +13,7 @@ export default function Navbar() {
   const [isMobileMenuOpen, toggleMobileMenu] = useToggleState(false);
 
   return (
-    <nav className={styles.navbarContainer}>
+    <nav id="Navbar" className={styles.navbarContainer}>
       <img className={styles.logo} src={shopifyLogo} alt="" />
       <div className={styles.desktopLinksContainer}>
         <ul className={styles.desktopLeftLinks}>
