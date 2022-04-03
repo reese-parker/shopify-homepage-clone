@@ -1,0 +1,104 @@
+.container {
+    max-width: 100%;
+    padding: 0 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+
+.quoteContainer {
+    width: 100%;
+    background-color: rgb(3,46,37);
+    
+}
+
+.seamstressImageContainer {  
+    width: 100%;
+    
+}
+
+.seamstressImage {
+    width: 100%;
+}
+
+.textContainer {
+    padding: 0 7%;
+max-width: 100%;
+color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 30px;
+}
+
+.quote {
+    font-weight: 700;
+    line-height: 1.6;
+   
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.ceeCeesClosetImageContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.ceeCeesClosetImage {
+    width: 150px;
+}
+
+.quoteName {
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.buttonContainer {
+    border: 1px solid white;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 250ms;
+}
+.buttonContainer:hover {
+ background-color: white;
+ color: rgb(3,46,37);
+}
+.buttonContainer:hover svg {
+fill: rgb(3,46,37);
+}
+
+.playButton{
+    width: 30%;
+    height: 15px;
+   fill: rgb(3,46,37);
+}
+
+
+.buttonText {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+@media (min-width: 750px) {
+    .quoteContainer {
+        display: flex;
+    }
+
+    .seamstressImageContainer {  
+        width: 60%;
+        
+    }
+    .textContainer {
+        width: 40%;
+        margin: 30px 0;
+    }
+    .seamstressImage{
+        height: 100%;
+    }
+}
