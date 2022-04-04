@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.182b2d6a.css",
+    "main.js": "/static/js/main.0b156533.js",
+    "static/media/sellEverywhere.png": "/static/media/sellEverywhere.3ec7972e2fcf542b5e19.png",
+    "static/media/seamstressImage.png": "/static/media/seamstressImage.1bda3460e41333852595.png",
+    "static/media/globe.png": "/static/media/globe.c02d07139db6ab7c3cae.png",
+    "static/media/manageEverything.png": "/static/media/manageEverything.524c83a693259127e068.png",
+    "static/media/foodAndDrink.png": "/static/media/foodAndDrink.07f17f190326e9f10bf0.png",
+    "static/media/manTyping.png": "/static/media/manTyping.05f44e52592095245760.png",
+    "static/media/heroProduct.png": "/static/media/heroProduct.671bda1750ff8daea22c.png",
+    "static/media/homeAndGarden.png": "/static/media/homeAndGarden.44fca816ad374ea46c9f.png",
+    "static/media/marketYourBusiness.png": "/static/media/marketYourBusiness.20bf573a0c3994ea239a.png",
+    "static/media/jewelry.png": "/static/media/jewelry.ee2284364446d11ae6ac.png",
+    "static/media/beautyAndCosmetics.png": "/static/media/beautyAndCosmetics.e50be4c303a5e62d3c6b.png",
+    "static/media/shopify_logo_whitebg.svg": "/static/media/shopify_logo_whitebg.16d2ef792feb49cddad12562ed8c8e01.svg",
+    "static/media/movePath.svg": "/static/media/movePath.3c2718dcef36b160b835d990ea9d41e0.svg",
+    "index.html": "/index.html",
+    "static/media/startPath.svg": "/static/media/startPath.c639a49f9d6fa25c608717398b6ec1ea.svg",
+    "static/media/switchPath.svg": "/static/media/switchPath.e20693aa0bfb9f11b5d9720571f2c08b.svg",
+    "static/media/hirePath.svg": "/static/media/hirePath.3cd50bc7c33a9a278ac4e576abb9c46b.svg",
+    "static/media/closeMobileMenuIcon.svg": "/static/media/closeMobileMenuIcon.dd19e763d05c60ce2f0a2589ec594dfc.svg",
+    "static/media/playIcon.svg": "/static/media/playIcon.9bbccd5c90207dd89df214ac1051a95a.svg",
+    "static/media/navigateUpArrow.svg": "/static/media/navigateUpArrow.842258a6a8d0154f142ff48906f01c8d.svg",
+    "static/media/exploreMoreArrow.svg": "/static/media/exploreMoreArrow.2507a931bde056cb381da65d5f9f2643.svg",
+    "static/media/menuIcon.svg": "/static/media/menuIcon.eb6293f09b09235e99d32aa0ce15f6f3.svg",
+    "static/media/navbarLinkDownArrow.svg": "/static/media/navbarLinkDownArrow.8f7c6a66558d9abc27118358682bad50.svg",
+    "static/media/navbarLinkRightArrow.svg": "/static/media/navbarLinkRightArrow.237914cc4946fd4b754b2975b33f1e4a.svg",
+    "main.182b2d6a.css.map": "/static/css/main.182b2d6a.css.map",
+    "main.0b156533.js.map": "/static/js/main.0b156533.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.182b2d6a.css",
+    "static/js/main.0b156533.js"
+  ]
+}
