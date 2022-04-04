@@ -14,7 +14,7 @@ export default function FreeTrialSection() {
       <div className={styles.button}>
         <p className={styles.buttonText}>Start free trial</p>
       </div>
-      <Link to="IntroSection" smooth>
+      <Link to="App" smooth>
         <div className={styles.navigateWrapper}>
           <span className={styles.navigateText}>Back to top</span>
           <img

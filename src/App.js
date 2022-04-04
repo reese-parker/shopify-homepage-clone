@@ -3,14 +3,17 @@ import IntroSection from "./IntroSection";
 import BusinessOnlineSection from "./BusinessOnlineSection";
 import WhereverSection from "./WhereverSection";
 import EmpoweringSection from "./EmpoweringSection";
-import styles from "./styles/AppStyles.module.css"
 import QuotesSection from "./QuotesSection";
 import SupportSection from "./SupportSection";
 import FreeTrialSection from "./FreeTrialSection";
+import Footer from "./Footer";
+import styles from "./styles/AppStyles.module.css"
+
+
 
 function App() {
   return (
-    <div className="App">
+    <div id="App" className="App">
       <Navbar />
       <main className={styles.mainContainer} >
         <IntroSection />
@@ -21,6 +24,7 @@ function App() {
         <SupportSection />
         <FreeTrialSection />
       </main>
+      <Footer />
     </div>
   );
 }
